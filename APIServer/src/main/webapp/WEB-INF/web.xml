@@ -19,4 +19,14 @@
     <servlet-name>VersionServlet</servlet-name>
     <url-pattern>/version</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckForUpgradeServlet</display-name>
+    <servlet-name>CheckForUpgradeServlet</servlet-name>
+    <servlet-class>com.alliconsulting.apps.api.CheckForUpgradeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckForUpgradeServlet</servlet-name>
+    <url-pattern>/checkforupgrade</url-pattern>
+  </servlet-mapping>
 </web-app>
